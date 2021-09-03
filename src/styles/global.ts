@@ -5,14 +5,15 @@ export const GlobalStyle = createGlobalStyle`
     --background: #f0f2f5;
     --red: #E52E4D;
     --blue: #5429CC;
-    
+    --green: #33cc95;
     --blue-light: #6933FF;
 
     --text-tittle: #363F5F;
     --text-body: #969CB3;
 
     --background: #F0F2F5;
-    --shape: #FFFFF;
+
+    --shape: #FFFF;
   }
   * {
     margin: 0;
@@ -32,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     background: var(--background);
-    -webkit-font-smoothing: antialiased:
+    -webkit-font-smoothing: antialiased;
   }
   body,input, textarea, button {
     font-family: 'Poppins', sans-serif;
